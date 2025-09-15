@@ -21,7 +21,7 @@ export default function Navbar() {
       <div className="flex flex-col items-center mb-10">
         <div className="w-30 h-12 mt-10 rounded-full flex items-center justify-center mb-3">
           <Image
-            src="/images/fruitguard_logo.png"
+            src="/images/fruitguard.png"
             alt="FruitGuard logo"
             width={800}
             height={200}
