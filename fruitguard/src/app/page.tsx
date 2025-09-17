@@ -1,12 +1,12 @@
 import Image from "next/image";
-// import Sidebar from "./sharedComponents/Sidebar";
-import Navbar from "./sharedComponents/Navbar";
+import AdminSidebar from "./sharedComponents/Sidebar/AdminSidebar";
+import AgrovetSidebar from "./sharedComponents/Sidebar/AgrovetSidebar";
 
 export default function Home() {
   return (
     <div>
-   {/* <Sidebar/> */}
-   <Navbar/>
+      <AdminSidebar/>
+      <AgrovetSidebar/>
     </div>
   );
 }

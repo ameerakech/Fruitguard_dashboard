@@ -8,7 +8,7 @@ import {
   ArrowLeftOnRectangleIcon,
 } from "@heroicons/react/24/outline";
 
-export default function Navbar() {
+export default function AgrovetSidebar() {
   const [active, setActive] = useState("home");
 
   const navItems = [
@@ -28,7 +28,7 @@ export default function Navbar() {
             priority={true}
           />
         </div>
-        
+        l
         <h1 className="text-[25px] font-semibold mt-5 mb-4 text-[#FFC661]">
           FruitGuard
         </h1>

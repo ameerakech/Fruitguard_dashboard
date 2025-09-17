@@ -9,7 +9,7 @@ import {
   ArrowLeftOnRectangleIcon,
 } from "@heroicons/react/24/outline";
 
-export default function Sidebar() {
+export default function AdminSidebar() {
   const [active, setActive] = useState("home");
 
   const navItems = [
